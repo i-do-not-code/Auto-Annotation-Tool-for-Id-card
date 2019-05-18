@@ -1,4 +1,4 @@
-###PIPELINE :
+## PIPELINE :
 Pic Upload ---> Text Boxes detected using CTPN + OCR on each text block + Format and sorting according to dimensions(for getting clear text of id card + Information Extraction)
 	Note: For Increasing the accuracy one need to only modify the get_info file in ocr folder. This we can improve while testing.
 
