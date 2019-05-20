@@ -13,7 +13,7 @@ Note: For Increasing the accuracy one need to only modify the get_info file in o
 
 ### DATASET
 
-Used for training = [ICDAR 2013 and 2015](http://rrc.cvc.uab.es/?ch=2)  
+Used for training: [ICDAR 2013 and 2015](http://rrc.cvc.uab.es/?ch=2)  
 
 ### NEURAL NETWORK MODEL
 
