@@ -90,7 +90,7 @@ def ocr_extract_text(image):
 
 	# load the image as a PIL/Pillow image, apply OCR, and then delete
 	# the temporary file
-	text = pytesseract.image_to_string(Image.open(filename), lang = 'eng')
+	text = pytesseract.image_to_string(Image.open(filename), lang = 'eng',config='-psm 6')
 	# add +hin after eng within the same argument to extract hindi specific text - change encoding to utf-8 while writing
 	os.remove(filename)
 	return text
