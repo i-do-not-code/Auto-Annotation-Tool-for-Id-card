@@ -35,7 +35,7 @@ for im_name in im_names:
 		prev_y = 0
 		content = ""
 		for box in sort_boxes:
-            text_arr = box[4:]
+			text_arr = box[4:]
 			text = arr_to_str(text_arr)
 			if prev_y != box[3]:
 				content += '\n' + text
