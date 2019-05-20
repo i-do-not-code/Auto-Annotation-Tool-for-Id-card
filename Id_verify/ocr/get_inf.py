@@ -26,7 +26,7 @@ for im_name in im_names:
 		#### Making dictonary for sorting #####
 		for box in boxes:
 			co_ord = box.split(',')
-			if len(co_ord) == 5:
+			if len(co_ord) >= 5:
 				sort_boxes.append(co_ord)
 
 		sort_boxes.sort(key=lambda x: (int(x[3]),int(x[0])))
@@ -35,7 +35,8 @@ for im_name in im_names:
 		prev_y = 0
 		content = ""
 		for box in sort_boxes:
-			text = box[4]
+            text_arr = box[4:]
+			text = arr_to_str(text_arr)
 			if prev_y != box[3]:
 				content += '\n' + text
 			else:
