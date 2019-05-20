@@ -1,4 +1,4 @@
-# Id card Varification OCR
+# Id card Verification OCR
 
 This repository have the tool that takes the raw image as input and returns the basic information that any Id card contain(in json format). In this, first text boxes are detected using the Connectionist Text Proposal Network that is giving the accuracy around 89%. Then comes the OCR Model for converting the image into the text, for this pytesseract is the best toolkit available as the open source of tesseract-OCR thus can be directly used. Last part deals with the Information Extraction in which regex can be used and other Natural Language Technique for extracting the required information. One can update the Inforamtion Extraction part as per your need.
 
