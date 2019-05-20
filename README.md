@@ -13,7 +13,7 @@ Note: For Increasing the accuracy one need to only modify the get_info file in o
 
 ### DATASET
 
-Used for training = [ICDAR 2013 and 2015] (http://rrc.cvc.uab.es/?ch=2)  
+Used for training = [ICDAR 2013 and 2015](http://rrc.cvc.uab.es/?ch=2)  
 
 ### NEURAL NETWORK MODEL
 
@@ -22,7 +22,7 @@ Used for training = [ICDAR 2013 and 2015] (http://rrc.cvc.uab.es/?ch=2)
 3. Computationally efficient with 0:14s/image.
 4. Not only restricted to id cards, we can use it for any image where there is horizontal data present. Like Pan card, Adhaar card.
 5. For detecting the boxes other than horizontal, one need to just change the parameters in the test.yml in cptn folder.
-For Further Reading of this network : [Link] (https://arxiv.org/abs/1609.03605)
+For Further Reading of this network : [Link](https://arxiv.org/abs/1609.03605)
 
 ### ACCURACY
 
