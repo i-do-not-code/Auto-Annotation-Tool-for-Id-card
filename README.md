@@ -41,6 +41,7 @@ cd Id_verification_OCR
 mkdir Id_verify/data/results Id_verify/data/temp Id_verify/Id_result 
 mkdir Id_verify/Id_result/json Id_verify/Id_result/text 
 mkdir Id_verify/ocr/results
+mkdir Output Output/json Output/text Output/pics
 sudo pip3 install -r requirements.txt
 ```
 If fresh os system: 
