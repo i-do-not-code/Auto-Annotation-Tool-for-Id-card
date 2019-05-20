@@ -1,4 +1,8 @@
-PIPELINE :
+# Id card Varification OCR
+
+This repo basically takes the raw input image and return you the basic information that any Id card (in json format). In this basically, first text boxes are detected using the Connectionist Text Proposal Network that is giving the accuracy around 89%. Then comes the OCR Model for converting the image into the text, for this i am using pytesseract with is the open source of tesseract-OCR. One can directly use this library. At last is the Information Extraction part in which in am using the regex and other Natural Language Technique for extracting the required information. You can update the Inforamtion Extraction part as per your need.
+
+## PIPELINE :
 Pic Upload ---> Text Boxes detected using CTPN + OCR on each text block + Format and sorting according to dimensions(for getting clear text of id card + Information Extraction)
 	Note: For Increasing the accuracy one need to only modify the get_info file in ocr folder. This we can improve while testing.
 
