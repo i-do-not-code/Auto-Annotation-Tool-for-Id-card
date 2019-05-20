@@ -86,9 +86,9 @@ For getting the pre-trianed model- You can directly mail me(sourav.kumar@researc
 
 You may have to do several changes for training this on your system. 
 ```
-1. cd lib/utils
-2. chmod +x make.sh
-3. ./make.sh
+cd lib/utils
+chmod +x make.sh
+./make.sh
 ```
 
 ### Prepare Data
